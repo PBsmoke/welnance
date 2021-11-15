@@ -16,9 +16,9 @@ import {
 } from './helpers'
 
 // address to lowercase
-let wlUSDTAddress = '0x72312f8900ecf359b203863488ebf6b03f44c3ee'
+let wlUSDTAddress = '0x781d0d50ae3683322090c54c25858bf76ec9f922'
 // address to lowercase
-let wlBNBAddress = '0xff4f188ff7fdc9a9f3151d6e9b7168ab7b4f2701'
+let wlBNBAddress = '0x38e22c429e62530cbb59b90bf14a71346c727752'
 
 // Used for all BEP20 contracts
 function getTokenPrice(

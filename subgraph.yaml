@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Comptroller
-    network: mainnet
+    network: bsc
     source:
-      address: "0x573a901E8811a7B65C556e07F1E5a7bEcFab78Af"
+      address: "0xdc21c1dAF3277f07fFA6EB09fCD3E07EDc36DC0A"
       abi: Comptroller
       startBlock: 13128054
     mapping:
@@ -42,7 +42,7 @@ dataSources:
 templates:
   - name: WLToken
     kind: ethereum/contract
-    network: mainnet
+    network: bsc
     source:
       abi: WLToken
     mapping:
